@@ -10,19 +10,24 @@ uv_loop_t *loop;
 CURLM* curl_handle;
 int count = 1;
 int waiting_on_flush = 0;
-uv_async_t doflush;
 
 //
 // Lesson: curl is terrible
 //
-void notify_for_flush() {
-  uv_async_send(&doflush);
+void free_on_close(uv_handle_t* handle) {
+  free(handle);
 }
-
 void flush_queue(uv_async_t* handle, int status) {
+  uv_close((uv_handle_t*)handle, free_on_close);
   waiting_on_flush = 0;
   curl_multi_perform( curl_handle, &count );
 }
+void notify_for_flush() {
+  uv_async_t* doflush = malloc(sizeof(uv_async_t));
+  uv_async_init(loop, doflush, flush_queue);
+  uv_async_send(doflush);
+}
+
 
 size_t read_from_queue(char *ptr, size_t size, size_t nmemb, void *userdata) {
   uv_queue_t* queue = (uv_queue_t*) userdata;
@@ -78,7 +83,7 @@ void read_to_curl(uv_stream_t* stream, ssize_t nread, uv_buf_t buf) {
   if (nread <= 0) {
     return;
   }
-  uv_buf_t cp = uv_buf_init(buf.base, nread);
+  const uv_buf_t cp = uv_buf_init(buf.base, nread);
   uv_queue_t* queue = stream->data;
   uv_queue_push(queue, cp);
   if(!waiting_on_flush) {
@@ -104,8 +109,6 @@ int main(int argc, char **argv) {
     fprintf(stderr, "Could not init cURL\n");
     return 1;
   }
-  
-  uv_async_init(loop, &doflush, flush_queue);
 
 
   uv_queue_t *queue = (uv_queue_t*) malloc(sizeof(uv_queue_t));
