@@ -1,0 +1,653 @@
+Tlibuv
+v5
+r1
+cCheck dependencies
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/fs-poll.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/fs-poll.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/inet.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/inet.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/uv-common.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/uv-common.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/async.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/async.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/core.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/core.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/error.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/error.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/dl.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/dl.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/fs.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/getaddrinfo.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/getaddrinfo.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/loop.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/loop-watcher.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop-watcher.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/pipe.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/pipe.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/poll.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/poll.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/process.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/process.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/signal.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/signal.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/stream.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/stream.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/tcp.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tcp.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/thread.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/thread.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/threadpool.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/threadpool.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/timer.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/timer.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/tty.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tty.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/udp.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/udp.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/darwin.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/darwin.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/fsevents.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fsevents.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/kqueue.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/kqueue.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/libuv.a normal i386
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/libuv.a
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/async.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/core.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/darwin.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/dl.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/error.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/fs-poll.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/fs.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/fsevents.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/getaddrinfo.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/inet.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/kqueue.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/loop-watcher.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/loop.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/pipe.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/poll.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/process.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/signal.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/stream.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/tcp.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/thread.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/threadpool.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/timer.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/tty.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/udp.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/uv-common.o
+t2
+s0
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/uv.LinkFileList
+c00000000514B67130000000000000A84
+t1363896083
+s2692
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/include/uv.h
+c000000005149DA4C000000000001061C
+t1363794508
+s67100
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/fs-poll.c
+c000000005149DA4C0000000000001B4A
+t1363794508
+s6986
+i"uv.h"
+i"uv-common.h"
+i<assert.h>
+i<stdlib.h>
+i<string.h>
+i"win/internal.h"
+i"win/handle-inl.h"
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/inet.c
+c000000005149DA4C0000000000002018
+t1363794508
+s8216
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/async.c
+c000000005149DA4C0000000000001031
+t1363794508
+s4145
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/core.c
+c000000005149DA4C000000000000364A
+t1363794508
+s13898
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/darwin.c
+c000000005149DA4C0000000000002B1D
+t1363794508
+s11037
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/dl.c
+c000000005149DA4C00000000000008EF
+t1363794508
+s2287
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/error.c
+c000000005149DA4C0000000000000E05
+t1363794508
+s3589
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fs.c
+c000000005149DA4C00000000000054AD
+t1363794508
+s21677
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fsevents.c
+c000000005149DA4C0000000000002615
+t1363794508
+s9749
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/getaddrinfo.c
+c000000005149DA4C00000000000011B1
+t1363794508
+s4529
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/kqueue.c
+c000000005149DA4C0000000000002398
+t1363794508
+s9112
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop-watcher.c
+c000000005149DA4C0000000000001011
+t1363794508
+s4113
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop.c
+c000000005149DA4C0000000000000DDF
+t1363794508
+s3551
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/pipe.c
+c000000005149DA4C0000000000001B03
+t1363794508
+s6915
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/poll.c
+c000000005149DA4C0000000000000BD3
+t1363794508
+s3027
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/process.c
+c000000005149DA4C0000000000002C01
+t1363794508
+s11265
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/signal.c
+c000000005149DA4C0000000000002F51
+t1363794508
+s12113
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/stream.c
+c000000005149DA4C0000000000008849
+t1363794508
+s34889
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tcp.c
+c000000005149DA4C000000000000227A
+t1363794508
+s8826
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/thread.c
+c000000005149DA4C0000000000002087
+t1363794508
+s8327
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/threadpool.c
+c000000005149DA4C000000000000182E
+t1363794508
+s6190
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/timer.c
+c000000005149DA4C0000000000000DD7
+t1363794508
+s3543
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tty.c
+c000000005149DA4C0000000000000E0C
+t1363794508
+s3596
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/udp.c
+c000000005149DA4C000000000000492B
+t1363794508
+s18731
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/uv-common.c
+c000000005149DA4C0000000000002165
+t1363794508
+s8549
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/uv-common.h
+c000000005149DA4C000000000000175E
+t1363794508
+s5982
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/win/handle-inl.h
+c000000005149DA4C000000000000181B
+t1363794508
+s6171
+
+N/Users/bradleymeck/Documents/clean/uvcat/uv/src/win/internal.h
+c000000005149DA4C00000000000029C7
+t1363794508
+s10695
+
+N/usr/include/assert.h
+c000000004E360D4B0000000000000F6E
+t1312165195
+s3950
+
+N/usr/include/stdlib.h
+c000000004E360D4E00000000000030A7
+t1312165198
+s12455
+
+N/usr/include/string.h
+c000000004E360D4E0000000000001A3A
+t1312165198
+s6714
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies24d1e7929efbb641^5fb2d1939efbb641^---0#1#0#--18"Check dependencies36"9FC362BB-273E-4A1F-8CEB-F024B2DA82BE-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/async.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/async.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588883.827023
+e385588890.725637
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/async.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/async.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/async.c99d5d3939efbb641^dfc3b99a9efbb641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/async.c0000000000000000^1838"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/async.o src/unix/async.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/async.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/async.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/async.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/async.o36"0EC6AB06-107A-47D9-AC7C-110130140AC7-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/core.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/core.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588883.827107
+e385588890.841293
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/core.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/core.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/core.c66d9d3939efbb641^d060d79a9efbb641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/core.c0000000000000000^1832"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/core.o src/unix/core.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/core.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/core.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/core.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/core.o36"716DE9FD-5853-424F-BB7E-8ECC5AD9FE91-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/darwin.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/darwin.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588891.536759
+e385588891.994501
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/darwin.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/darwin.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/darwin.c2a90899b9efbb641^5f9afe9b9efbb641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/darwin.c0000000000000000^1844"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/darwin.o src/unix/darwin.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/darwin.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/darwin.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/darwin.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/darwin.o36"6E17E35B-FB18-4408-9AB7-C4777BA1E94E-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/dl.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/dl.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588883.827175
+e385588890.217505
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/dl.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/dl.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/dl.cfce1d3939efbb641^efae379a9efbb641^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/dl.c0000000000000000^1820"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/dl.o src/unix/dl.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/dl.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/dl.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/dl.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/dl.o36"44FF2013-3D97-48AF-9137-C2F7E42C3DCF-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/error.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/error.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588883.827160
+e385588890.215768
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/error.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/error.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/error.c23ddd3939efbb641^9f3d379a9efbb641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/error.c0000000000000000^1838"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/error.o src/unix/error.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/error.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/error.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/error.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/error.o36"7FA1E00C-146E-4C13-A153-05F142BA4CB0-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/fs-poll.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/fs-poll.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588883.825505
+e385588885.451041
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/fs-poll.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/fs-poll.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/fs-poll.c04aed3939efbb641^5f7a73959efbb641^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/fs-poll.c0000000000000000^1840"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/fs-poll.o src/fs-poll.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/fs-poll.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/fs-poll.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/fs-poll.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/fs-poll.o36"A4C1D433-1784-4D9E-B0FE-52A9F9479BA4-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/fs.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588883.828122
+e385588890.985614
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/fs.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fs.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fs.c:205:34: warning: incompatible pointer types passing 'int (const struct dirent *)' to parameter of type 'int (*)(struct dirent *)' [-Wincompatible-pointer-types]
+o  n = scandir(req->path, &dents, uv__fs_readdir_filter, alphasort);
+o                                 ^~~~~~~~~~~~~~~~~~~~~
+o/usr/include/dirent.h:129:11: note: passing argument to parameter here
+o    int (*)(struct dirent *), int (*)(const void *, const void *)) __DARWIN_INODE64(scandir);
+o          ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fs.c4014d4939efbb641^ce50fc9a9efbb641^-540"/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fs.c:205:34: warning: incompatible pointer types passing 'int (const struct dirent *)' to parameter of type 'int (*)(struct dirent *)' [-Wincompatible-pointer-types]  n = scandir(req->path, &dents, uv__fs_readdir_filter, alphasort);                                 ^~~~~~~~~~~~~~~~~~~~~/usr/include/dirent.h:129:11: note: passing argument to parameter here    int (*)(struct dirent *), int (*)(const void *, const void *)) __DARWIN_INODE64(scandir);          ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@112"Incompatible pointer types passing 'int (const struct dirent *)' to parameter of type 'int (*)(struct dirent *)'-385588890#18446744073709551615#0#1(2@34"Passing argument to parameter here-385588890#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@37"file://localhost/usr/include/dirent.h0000000000000000^128#10#128#10#5392#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@73"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fs.c0000000000000000^204#33#204#33#7852#0#14"Semantic Issue1(3@73"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fs.c0000000000000000^204#33#204#54#7852#0#-0#0#0#-19%DVTDocumentLocation4@73"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fs.c0000000000000000^1820"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/fs.o src/unix/fs.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/fs.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/fs.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fs.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/fs.o36"6155B16A-A3E7-4E7C-B815-F8CBEB3E8CC8-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/fsevents.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fsevents.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588891.688025
+e385588891.909299
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/fsevents.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fsevents.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fsevents.c973ab09b9efbb641^cdc8e89b9efbb641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fsevents.c0000000000000000^1856"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/fsevents.o src/unix/fsevents.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/fsevents.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/fsevents.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/fsevents.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/fsevents.o36"BF48AC79-E6E3-4FD7-AE76-4FD8D4B6D392-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/getaddrinfo.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/getaddrinfo.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588885.452551
+e385588890.655108
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/getaddrinfo.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/getaddrinfo.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/getaddrinfo.c44f873959efbb641^41b7a79a9efbb641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/getaddrinfo.c0000000000000000^1874"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/getaddrinfo.o src/unix/getaddrinfo.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/getaddrinfo.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/getaddrinfo.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/getaddrinfo.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/getaddrinfo.o36"17D18E72-9F84-4248-AA20-FED3446E4867-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/inet.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/inet.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588883.826177
+e385588885.451047
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/inet.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/inet.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/inet.c3ab1d3939efbb641^6b8373959efbb641^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/inet.c0000000000000000^1822"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/inet.o src/inet.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/inet.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/inet.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/inet.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/inet.o36"B56EC7D1-FD74-436B-8F35-FAF8B7B3E78E-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/kqueue.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/kqueue.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588891.688048
+e385588891.962265
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/kqueue.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/kqueue.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/kqueue.c624ab09b9efbb641^b857f69b9efbb641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/kqueue.c0000000000000000^1844"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/kqueue.o src/unix/kqueue.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/kqueue.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/kqueue.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/kqueue.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/kqueue.o36"517900B7-B5F5-4C86-9A0D-8776CE452657-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/loop-watcher.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop-watcher.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588885.452561
+e385588890.076642
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/loop-watcher.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop-watcher.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop-watcher.c12f873959efbb641^779f139a9efbb641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop-watcher.c0000000000000000^1880"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/loop-watcher.o src/unix/loop-watcher.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/loop-watcher.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/loop-watcher.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop-watcher.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/loop-watcher.o36"B792BC8A-2F99-4619-9377-FF89A9825EE2-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/loop.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588885.452555
+e385588890.216875
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/loop.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop.ccbf873959efbb641^2288379a9efbb641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop.c0000000000000000^1832"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/loop.o src/unix/loop.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/loop.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/loop.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/loop.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/loop.o36"13F6234C-257A-4C67-B0BD-94284D7DA6CF-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/pipe.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/pipe.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588890.078028
+e385588891.002098
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/pipe.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/pipe.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/pipe.cba13149a9efbb641^e389009b9efbb641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/pipe.c0000000000000000^1832"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/pipe.o src/unix/pipe.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/pipe.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/pipe.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/pipe.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/pipe.o36"3161F46E-6518-422E-AB63-3F1172922B16-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/poll.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/poll.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588890.726936
+e385588891.002466
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/poll.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/poll.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/poll.c183eba9a9efbb641^dfa4019b9efbb641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/poll.c0000000000000000^1832"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/poll.o src/unix/poll.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/poll.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/poll.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/poll.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/poll.o36"842D22C2-472D-4296-925D-D39C897E313C-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/process.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/process.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588890.842622
+e385588891.230431
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/process.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/process.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/process.c8dd0d79a9efbb641^c5fe3a9b9efbb641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/process.c0000000000000000^1850"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/process.o src/unix/process.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/process.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/process.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/process.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/process.o36"812F392C-FBD3-407D-97C0-20F6BA2265E5-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/signal.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/signal.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588890.986988
+e385588891.321683
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/signal.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/signal.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/signal.cc2c3fc9a9efbb641^dba4529b9efbb641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/signal.c0000000000000000^1844"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/signal.o src/unix/signal.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/signal.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/signal.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/signal.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/signal.o36"39938923-0565-401B-807E-11AF79781F61-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/stream.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/stream.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588891.003417
+e385588891.428479
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/stream.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/stream.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/stream.cfdf7009b9efbb641^ffb06d9b9efbb641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/stream.c0000000000000000^1844"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/stream.o src/unix/stream.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/stream.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/stream.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/stream.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/stream.o36"2D1D790C-E057-4351-BAAF-D2F418ACD8C2-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/tcp.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tcp.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588891.003931
+e385588891.244247
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/tcp.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tcp.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tcp.cad15019b9efbb641^a0873e9b9efbb641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tcp.c0000000000000000^1826"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/tcp.o src/unix/tcp.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/tcp.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/tcp.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tcp.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/tcp.o36"2968C795-02D1-421C-9EBA-2EF96CAC750D-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/thread.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/thread.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588891.231725
+e385588891.535548
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/thread.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/thread.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/thread.c946a3b9b9efbb641^fc1a899b9efbb641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/thread.c0000000000000000^1844"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/thread.o src/unix/thread.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/thread.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/thread.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/thread.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/thread.o36"E9A99538-ED06-4217-BC7E-5E0F0BD6DA4A-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/threadpool.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/threadpool.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588891.245572
+e385588891.519490
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/threadpool.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/threadpool.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/threadpool.c3cf73e9b9efbb641^e3fd849b9efbb641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/threadpool.c0000000000000000^1868"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/threadpool.o src/unix/threadpool.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/threadpool.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/threadpool.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/threadpool.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/threadpool.o36"E8809E36-37EF-4772-8DB4-C11A5AC899B7-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/timer.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/timer.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588891.326427
+e385588891.686852
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/timer.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/timer.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/timer.cdfdc539b9efbb641^23ddaf9b9efbb641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/timer.c0000000000000000^1838"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/timer.o src/unix/timer.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/timer.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/timer.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/timer.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/timer.o36"987099BA-BCDE-4BDB-824B-9DBFF4E79D1F-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/tty.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tty.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588891.429764
+e385588891.686846
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/tty.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tty.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tty.c7a1c6e9b9efbb641^0fd6af9b9efbb641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tty.c0000000000000000^1826"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/tty.o src/unix/tty.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/tty.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/tty.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/tty.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/tty.o36"5528AB68-ED5F-4F7C-B289-7534B7FA9564-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/udp.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/udp.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588891.520820
+e385588891.813594
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/udp.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/udp.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/udp.c3b6d859b9efbb641^5e47d09b9efbb641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/udp.c0000000000000000^1826"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/udp.o src/unix/udp.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/udp.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/udp.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/unix/udp.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/udp.o36"FB3CC75F-EFE8-4CE5-9DC4-641C9EA0E10A-
+
+CCompileC build/uv.build/Default/libuv.build/Objects-normal/i386/uv-common.o /Users/bradleymeck/Documents/clean/uvcat/uv/src/uv-common.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s385588883.826962
+e385588885.451052
+r1
+xCompileC
+xbuild/uv.build/Default/libuv.build/Objects-normal/i386/uv-common.o
+x/Users/bradleymeck/Documents/clean/uvcat/uv/src/uv-common.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/bradleymeck/Documents/clean/uvcat/uv/src/uv-common.ce5d3d3939efbb641^848173959efbb641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/bradleymeck/Documents/clean/uvcat/uv/src/uv-common.c0000000000000000^1852"CompileC build/uv.build/Default/libuv.build/Objects-normal/i386/uv-common.o src/uv-common.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/bradleymeck/Documents/clean/uvcat/uv    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -DHAVE_CONFIG_H -D_DARWIN_USE_64_BIT_INODE=1 -fasm-blocks -Wdeprecated-declarations -g -Wno-sign-conversion -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/uv.hmap -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/include -Iinclude -Iinclude/uv-private -Isrc -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources/i386 -I/Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/DerivedSources -F/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -MMD -MT dependencies -MF /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/uv-common.d --serialize-diagnostics /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/uv-common.dia -c /Users/bradleymeck/Documents/clean/uvcat/uv/src/uv-common.c -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/uv-common.o36"E2C556EF-187F-4453-874B-0AAE91A5A090-
+
+CLibtool /Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/libuv.a normal i386
+s385588892.002303
+e385588892.066262
+r1
+xLibtool
+x/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/libuv.a
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Libtool build/Default/libuv.a normal i3861ec2009c9efbb641^88f7109c9efbb641^---0#0#0#--470"Libtool build/Default/libuv.a normal i386    cd /Users/bradleymeck/Documents/clean/uvcat/uv    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -L/Users/bradleymeck/Documents/clean/uvcat/uv/build/Default -filelist /Users/bradleymeck/Documents/clean/uvcat/uv/build/uv.build/Default/libuv.build/Objects-normal/i386/uv.LinkFileList -o /Users/bradleymeck/Documents/clean/uvcat/uv/build/Default/libuv.a36"93FE9516-8B56-40B7-A328-8C10011B3090-
+
